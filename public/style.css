@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo,.Welcome-btn,.log-form,.account-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.Welcome-btn{
+    margin: 18px;
+}
+
+.btn-log{
+    position: relative;
+    left: 47px;}
+
+a{
+    padding: 20px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 80px;
+    font-size: 20px;
+}
+
+.space{
+    margin-bottom: 2px;
+}
+
+.name1,.pass1{
+    display: flex;
+    justify-self: center;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.l1,.l2{
+  font-size: 17px; 
+  font-weight: 900;
+}
+
+.nav-link{
+    color: black;
+}
+
+#app .nav-link:hover{
+   color: black !important;
+   text-shadow: 2px 2px 4px rgba(50, 50, 50, 0.8);}
+
+#app .d-block {
+    height: 90vh !important;
+    width: 100%;
+}
+
+#app #exampleInputPassword1{
+    height: 20vw;
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+}
+
+#deleteForm{
+    margin-right: 10px;
+}
